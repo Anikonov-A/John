@@ -1,3 +1,27 @@
+
+@font-face {
+    font-family: 'heebomedium';
+    src: url('../fonts/heebo-medium-webfont.eot');
+    src: url('../fonts/heebo-medium-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/heebo-medium-webfont.woff2') format('woff2'),
+    url('../fonts/heebo-medium-webfont.woff') format('woff'),
+    url('../fonts/heebo-medium-webfont.ttf') format('truetype'),
+    url('../fonts/heebo-medium-webfont.svg#heebomedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'heebobold';
+    src: url('../fonts/heebo-bold-webfont.eot');
+    src: url('../fonts/heebo-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/heebo-bold-webfont.woff2') format('woff2'),
+    url('../fonts/heebo-bold-webfont.woff') format('woff'),
+    url('../fonts/heebo-bold-webfont.ttf') format('truetype'),
+    url('../fonts/heebo-bold-webfont.svg#heebobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 header {
     padding-top: 27px;
 }
@@ -25,9 +49,7 @@ header nav ul li:hover {
 
 header nav ul li a {
     text-decoration: none;
-    font-family: 'Heebo', sans-serif;
-    font-style: normal;
-    font-weight: 500;
+    font-family: 'heebomedium';
     font-size: 20px;
     color: #000000;
     line-height: 29px;
@@ -51,9 +73,7 @@ header nav ul li a {
 }
 
 .main_banner h1 {
-    font-family: 'Heebo', sans-serif;
-    font-style: normal;
-    font-weight: 700;
+    font-family: 'heebobold';
     font-size: 44px;
     line-height: 60px;
     color: #21243D;
@@ -61,9 +81,7 @@ header nav ul li a {
 }
 
 .main_banner p {
-    font-family: 'Heebo', sans-serif;
-    font-style: normal;
-    font-weight: 400;
+    font-family: 'heebomedium';
     font-size: 16px;
     line-height: 24px;
     color: #21243D;
@@ -76,9 +94,7 @@ header nav ul li a {
     text-decoration: none;
     padding: 13px 20px;
     color: #ffffff;
-    font-family: 'Heebo', sans-serif;
-    font-style: normal;
-    font-weight: 500;
+    font-family: 'heebomedium';
     font-size: 20px;
     line-height: 29px;
     transition: 0.3s;
@@ -111,9 +127,7 @@ header nav ul li a {
 }
 
 .works h4 {
-    font-family: 'Heebo', sans-serif;
-    font-style: normal;
-    font-weight: 400;
+    font-family: 'heebomedium';
     font-size: 22px;
     line-height: 60px;
     color: #21243D;
@@ -133,9 +147,7 @@ header nav ul li a {
 }
 
 .about_works h3 {
-    font-family: 'Heebo', sans-serif;
-    font-style: normal;
-    font-weight: 700;
+    font-family: 'heebobold';
     font-size: 30px;
     line-height: 44px;
     color: #21243D;
@@ -143,9 +155,7 @@ header nav ul li a {
 }
 
 .year_of_works {
-    font-family: 'Heebo',sans-serif;
-    font-style: normal;
-    font-weight: 900;
+    font-family: 'heebobold';
     font-size: 18px;
     line-height: 60px;
     color: #FFFFFF;
@@ -157,9 +167,7 @@ header nav ul li a {
 }
 
 .type_of_works {
-    font-family: 'Heebo', sans-serif;
-    font-style: normal;
-    font-weight: 400;
+    font-family:'heebomedium';
     font-size: 20px;
     line-height: 29px;
     color: #8695A4;
@@ -168,9 +176,7 @@ header nav ul li a {
 
 .about_works p {
 
-    font-family: 'Heebo', sans-serif;
-    font-style: normal;
-    font-weight: 400;
+    font-family:'heebomedium';
     font-size: 16px;
     line-height: 24px;
     color: #21243D;
@@ -267,12 +273,9 @@ header nav ul li a {
 
 .footer_container p {
     text-align: center;
-    font-family: 'Heebo', sans-serif;
-    font-style: normal;
-    font-weight: 400;
+    font-family: 'heebomedium';
     font-size: 14px;
     line-height: 21px;
     color: #21243D;
-    padding-bottom: 54px
-
+    padding-bottom: 54px;
 }
